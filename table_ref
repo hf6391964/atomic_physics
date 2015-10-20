@@ -1,0 +1,27 @@
+ar.ergs.new.July98	Atomic Data and Nuclear Data Tables v70 pg 231-254 (1998)
+kr.ergs.1999.new.NF	Nuclear Fusion v40 n4 pg 847 (2000)
+mo.ergs.19Dec96		Nuclear Fusion v37 n6 pg 825 (1997)
+table1.dat		Astronomy and Astrophysics Supplement Series v133 pg 403-409 (1998)
+table2.dat		Astronomy and Astrophysics Supplement Series v133 pg 403-409 (1998)
+xenon_lines		ASCII table from NIST for VUV Xenon lines
+atomic_mass.dat		Atomic Weights and Isotopic Compositions for All Elements
+			http://physics.nist.gov/PhysRefData/Compositions/
+XeXX_rad		HULLAC spectroscopy data from H. Kubo of XX-like Xe
+abund_dens_Mo.csv	fractional abundances as function of temperature of Mo0-42 from Fournier data 
+frac_abund_Mo.sav	IDL saveset of data in abund_dens_Mo.csv (used csv_convert.pro)
+behringer_boron		Private communication from BLIP through Ralph Dux 
+boron_rad_rate.dat	IDL saveset of ADPAK's power per unit charge state for boron from Whyte
+behringer_fluorine	Private communication from BLIP through Ralph Dux 
+fluorine_rad_rate.dat	IDL saveset of ADPAK's power per unit charge state for fluorine from Whyte
+ArK.txt			FAC-generated photon emissiion coefs from M.F.Gu for He-like Ar
+ArK.sav			IDL saveset of ArK.txt
+ArK_new.txt		FAC-generated photon emissiion coefs from M.F.Gu for He-like Ar and H-like Ar
+ArK_new.sav		IDL saveset of ArK_new.txt
+ArK_labels.txt		index of level numbers in ArK data in Gabriel notation
+mfgu_dr_rates.txt	The Astrophysical Journal v590 pg1131-1140 (2003) TABLE 1
+mfgu_rr_rates.txt	The Astrophysical Journal v589 pg1085-1088 (2003) TABLE 1
+DielSattAuto.dat	table of satellite emission data from O. Marchuk's thesis work
+
+/yacora			data from Dirk Wunderlich output from Yacora code of electron impact H,H2,H2+ excitation
+/hullac_kbf		data from Kevin Fournier HULLAC runs for his papers
+/adas			data tables d/l from OPEN-ADAS

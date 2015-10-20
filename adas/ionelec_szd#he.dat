@@ -1,0 +1,128 @@
+    5    /HE  IONISATION RATE COEFFICIENTS   /
+HE+ 0/HE+ 1/   24/I.P. =           198305.0/ICODE =  1/FCODE =  1/ISEL=   1
+ 1.000D+00 2.000D+00 3.000D+00 4.000D+00 5.000D+00 7.000D+00
+ 1.000D+01 1.500D+01 2.000D+01 3.000D+01 4.000D+01 5.000D+01
+ 7.000D+01 1.000D+02 1.500D+02 2.000D+02 3.000D+02 4.000D+02
+ 5.000D+02 7.000D+02 1.000D+03 2.000D+03 5.000D+03 1.000D+04
+ 4.921D-20 1.558D-14 1.187D-12 1.095D-11 4.293D-11 2.152D-10
+ 7.677D-10 2.217D-09 3.928D-09 7.305D-09 1.023D-08 1.265D-08
+ 1.630D-08 1.980D-08 2.292D-08 2.442D-08 2.544D-08 2.547D-08
+ 2.517D-08 2.429D-08 2.295D-08 1.969D-08 1.508D-08 1.193D-08
+HE+ 0/HE+ 1/   24/I.P. =            38454.7/ICODE =  2/FCODE =  1/ISEL=   2
+ 1.000D+00 2.000D+00 3.000D+00 4.000D+00 5.000D+00 7.000D+00
+ 1.000D+01 1.500D+01 2.000D+01 3.000D+01 4.000D+01 5.000D+01
+ 7.000D+01 1.000D+02 1.500D+02 2.000D+02 3.000D+02 4.000D+02
+ 5.000D+02 7.000D+02 1.000D+03 2.000D+03 5.000D+03 1.000D+04
+ 1.139D-09 1.591D-08 3.982D-08 6.355D-08 8.442D-08 1.171D-07
+ 1.497D-07 1.799D-07 1.957D-07 2.090D-07 2.126D-07 2.124D-07
+ 2.078D-07 1.986D-07 1.846D-07 1.733D-07 1.568D-07 1.451D-07
+ 1.362D-07 1.234D-07 1.107D-07 8.849D-08 6.413D-08 4.933D-08
+HE+ 0/HE+ 1/   24/I.P. =            32033.3/ICODE =  3/FCODE =  1/ISEL=   3
+ 1.000D+00 2.000D+00 3.000D+00 4.000D+00 5.000D+00 7.000D+00
+ 1.000D+01 1.500D+01 2.000D+01 3.000D+01 4.000D+01 5.000D+01
+ 7.000D+01 1.000D+02 1.500D+02 2.000D+02 3.000D+02 4.000D+02
+ 5.000D+02 7.000D+02 1.000D+03 2.000D+03 5.000D+03 1.000D+04
+ 1.339D-09 1.507D-08 3.583D-08 5.636D-08 7.466D-08 1.041D-07
+ 1.346D-07 1.648D-07 1.816D-07 1.976D-07 2.035D-07 2.051D-07
+ 2.032D-07 1.967D-07 1.853D-07 1.755D-07 1.606D-07 1.498D-07
+ 1.415D-07 1.293D-07 1.169D-07 9.471D-08 6.955D-08 5.391D-08
+HE+ 1/HE+ 2/   24/I.P. =           438889.0/ICODE =  1/FCODE =  1/ISEL=   4
+ 1.000D+00 2.000D+00 3.000D+00 4.000D+00 5.000D+00 7.000D+00
+ 1.000D+01 1.500D+01 2.000D+01 3.000D+01 4.000D+01 5.000D+01
+ 7.000D+01 1.000D+02 1.500D+02 2.000D+02 3.000D+02 4.000D+02
+ 5.000D+02 7.000D+02 1.000D+03 2.000D+03 5.000D+03 1.000D+04
+ 1.427D-33 1.346D-21 1.416D-17 1.510D-15 2.545D-14 6.649D-13
+ 8.011D-12 5.818D-11 1.613D-10 4.636D-10 8.036D-10 1.130D-09
+ 1.693D-09 2.318D-09 2.970D-09 3.350D-09 3.728D-09 3.876D-09
+ 3.924D-09 3.897D-09 3.764D-09 3.314D-09 2.581D-09 2.048D-09
+HE+ 1/HE+ 2/   24/I.P. =           438889.0/ICODE =  1/FCODE =  1/ISEL=   5
+ 5.000D-01 7.000D-01 1.000D+00 2.000D+00 3.000D+00 4.000D+00
+ 5.000D+00 7.000D+00 1.000D+01 1.500D+01 2.000D+01 3.000D+01
+ 4.000D+01 5.000D+01 7.000D+01 1.000D+02 1.500D+02 2.000D+02
+ 3.000D+02 4.000D+02 5.000D+02 7.000D+02 1.000D+03 2.000D+03
+ 2.360D-57 9.000D-44 1.427D-33 1.346D-21 1.416D-17 1.510D-15
+ 2.545D-14 6.649D-13 8.011D-12 5.818D-11 1.613D-10 4.636D-10
+ 8.036D-10 1.130D-09 1.693D-09 2.318D-09 2.970D-09 3.350D-09
+ 3.728D-09 3.876D-09 3.924D-09 3.897D-09 3.764D-09 3.314D-09
+C----------------------------------------------------------------------------
+C
+C  ELECTRON IMPACT IONISATION RATE COEFFICIENT LIST:
+C
+C   ISEL  INITIAL MET.    FINAL  MET.           SOURCE
+C           ION   CODE     ION   CODE
+C   ----  ------- ----   ------- ----     ---------------------------
+C     1   HE+ 0    1     HE+ 1    1       *BELL ET AL. (1982) CLM-R216
+C     2   HE+ 0    2     HE+ 1    1       *FUJIMOTO    (1978)
+C     3   HE+ 0    3     HE+ 1    1       *FUJIMOTO    (1978)
+C     4   HE+ 1    1     HE+ 2    1       *BELL ET AL. (1982) CLM-R216
+C     4   HE+ 1    1     HE+ 2    1       !LOW TEMP. EXTRAPOL OF BELL
+C
+C
+C        * INDICATES PREFERRED DATA
+C        ! LOW TEMP. EXTRAPOLATED USED ADAS106/BCHID AS SUPPORT FUNCTION.
+C
+C
+C  NOTES.
+C ------
+C
+C   ISEL  INITIAL MET.    DESIG.             FINAL  MET.    DESIG.
+C           ION   CODE                        ION   CODE
+C   ----  ------- ---- ---------------      ------- ---- ---------------
+C     1   HE+ 0    1     1S2 (1S)            HE+ 1    1     1S (2S)
+C     2   HE+ 0    2     1S 2S (3S)          HE+ 1    1     1S (2S)
+C     3   HE+ 0    3     1S 2S (1S)          HE+ 1    1     1S (2S)
+C     4   HE+ 1    1     1S  (2S)            HE+ 2    1     *  (1S)
+C     5   HE+ 1    1     1S  (2S)            HE+ 2    1     *  (1S)
+C
+C
+C
+C   UPDATE:  (10/02/92) H P SUMMERS - HE0 METASTABLE IONIS. INCLUDED.
+C   UPDATE:  (28/02/96) H P SUMMERS - LOW TEMP. ADDITION (ISEL = 5).
+C
+C----------------------------------------------------------------------------
+
+C---------------------------------------------------------------------------------
+C ADAS ADF07 DATA - SCCS info: @(#)$Header: /home/adascvs/adas/adf07/ionelec/ionelec_szd#he.dat,v 2.2 2004/07/06 22:00:41 whitefor Exp $ Date $Date: 2004/07/06 22:00:41 $
+C---------------------------------------------------------------------------------
+
+C-----------------------------------------------------------------------
+C                               OPEN-ADAS
+C                               +++++++++
+C
+C This file has been downloaded from OPEN-ADAS (http://open.adas.ac.uk)
+C by Matthew Reinke on 29-Oct-2010.
+C
+C TERMS AND CONDITIONS
+C --------------------
+C
+C The user of the OPEN-ADAS system and data (hereinafter "the User")
+C accepts the following terms and conditions:
+C
+C   1. The University of Strathclyde uses all reasonable endeavours to
+C      ensure the accuracy of the data provided and any information
+C      given, but the University makes no warranty, expressed or implied
+C      as to its accuracy, integrity, fitness for purpose and shall not
+C      be responsible for the use to which the data is put by the User
+C      and/or any consequences arising out of any inaccuracies or
+C      omissions.
+C
+C   2. Any downloaded OPEN-ADAS file is made available for the
+C      personal use of the User only.  It must not be used for any
+C      commercial application, incorporated into any web site or in
+C      any form re-distributed without express prior written permission
+C      from the ADAS Project. In particular, but not by way of
+C      limitation, it must not be:
+C        *  inserted into a managed database structure,
+C        *  redistributed along with a modelling or analysis code,
+C        *  made available on a public website.
+C
+C Permission for OPEN-ADAS data incorporation in non-commercial
+C code/system development for scientific advance will not be
+C unreasonably withheld, but will be subject to written agreement
+C on a case by case basis.
+C
+C The User will indemnify the University of Strathclyde and keep it
+C fully and effectively indemnified against each and every claim made
+C against the University as a result of the User's use of the data.
+C
+C-----------------------------------------------------------------------

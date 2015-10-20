@@ -1,0 +1,20 @@
+PRO a48_a04,elev,rlev,e2r
+	nelev=n(elev)+1
+	nrlev=n(rlev)+1
+	e2r=intarr(nelev)
+	e2r[0]=1				;assume that all 0th index is the ground state
+	FOR i=1,nelev-1 DO BEGIN
+		
+	ENDFOR
+
+END
+
+PRO add_rlines,adf04,adf48
+	read_adf04,file=adf04,data=edata
+	xxdata_09,file=adf48,fulldata=rdata
+	elev=edata.cstrga
+	rlev=rdata.cstrga
+	a48_a04,elev,rlev,e2r
+END
+	
+;adf04='/home/adas/adas/adf04/coparf#18/arf40_ls#ar16.dat'

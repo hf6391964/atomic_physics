@@ -1,0 +1,40 @@
+FUNCTION compute_lambda_breaks,adf04,lmax=lmax,peclimit=peclimit
+	IF NOT keyword_set(peclimit) THEN peclimit=50
+	IF NOT keyword_set(lmax) THEN lmax=1000.0
+	read_adf04,file=adf04,fulldata=data
+	ntrn=n(data.upper)+1
+	lambda=fltarr(ntrn)
+	FOR i=0,ntrn-1 DO lambda[i]=cm2ang(data.wa[data.upper[i]-1]-data.wa[data.lower[i]-1])
+	tmp=where(lambda LT lmax)
+	IF tmp[0] EQ -1 THEN RETURN,-1
+	lambda=lambda[tmp]			;find breaks on for lambda < lmax
+	order=sort(lambda)
+	lambda=lambda[order]
+	nlam=n(lambda)+1
+	IF nlam LT peclimit THEN RETURN,[0,max(lambda)]	;if < # transition limit (why there is one is beyond me...)
+        nbrk=fix(nlam/peclimit)
+	lbrk=fltarr(nbrk+1,2)
+	lbrk[0,0]=0.0
+	lbrk[nbrk,1]=max(lambda)
+	FOR i=0,nbrk-1 DO BEGIN
+		lbrk[i,1]=lambda[(i+1)*peclimit-1]
+		lbrk[i+1,0]=lambda[(i+1)*peclimit]
+	ENDFOR
+	RETURN,lbrk
+END
+
+PRO generate_208_pecs,adf04,telimit=telimit
+	IF NOT keyword_set(telimit) THEN telimit=35 	;number of te limit (why there is one is beyond me...)
+	IF NOT keyword_set(pass_dir) THEN pass_dir='/home/reinke/adas/pass/'
+	file=last(strsplit(adf04,'/',/extract))
+	file=strsplit(file,'.',/extract)
+	dens=[1.0e12,1.0e13,1.0e14,1.0e15]
+	te=10^make(2.0,4.0,35)	
+	lbrk=compute_lambda_breaks(adf04)
+	IF lbrk EQ -1 THEN RETURN
+	FOR i=0,n(lbrk)-1 DO BEGIN
+		print, 'running adas208 for wavelength band '+strtrim(i,1)+' of '+strtrim(n(lbrk[*,0]),1)+': '+string(lbrk[i,0])+' to '+string(lbrk[i,1])
+		run_adas208,adf04=adf04,te=te,dens=dens,/pec,pass_dir=pass_dir,wmin=lbrk[i,0],wmax=lbrk[i,1]
+		spawn,'mv '+pass_dir+'pec.pass '+pass_dir+file[0]+'_wl'+strtrim(i,1)+'.pec'	
+        ENDFOR
+END

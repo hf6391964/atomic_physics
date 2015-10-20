@@ -1,0 +1,97 @@
+SEQ='H '     NUCCHG=10
+
+   PARENT TERM INDEXING            BWNP=         0.0   NPRNTI= 1
+   --------------------
+   INDP    CODE                 S L   WI        WNP
+   ----    ----                 - -   --  ----------
+     1                         (1)0( 0.0)        0.0
+
+   LS RESOLVED TERM INDEXING       BWNR=  10986873.0    NTRM= 15
+   -------------------------
+   INDX    CODE                 S L   WJ        WNR
+   ----    ----                 - -   --  ----------
+     1     1S1                 (2)0(  .5)         .0  {1}1.000
+     2     2S1                 (2)0(  .5)  8239096.5  {1}1.000
+     3     2P1                 (2)1( 2.5)  8241381.9  {1}1.000
+     4     3S1                 (2)0(  .5)  9766023.4  {1}1.000
+     5     3P1                 (2)1( 2.5)  9766700.1  {1}1.000
+     6     3D1                 (2)2( 4.5)  9767278.2  {1}1.000
+     7     4S1                 (2)0(  .5) 10300310.3  {1}1.000
+     8     4P1                 (2)1( 2.5) 10300595.7  {1}1.000
+     9     4D1                 (2)2( 4.5) 10300839.5  {1}1.000
+    10     4F1                 (2)3( 6.5) 10300943.9  {1}1.000
+    11     5S1                 (2)0(  .5) 10547547.9  {1}1.000
+    12     5P1                 (2)1( 2.5) 10547694.0  {1}1.000
+    13     5D1                 (2)2( 4.5) 10547818.9  {1}1.000
+    14     5F1                 (2)3( 6.5) 10547872.3  {1}1.000
+    15     5G1                 (2)4( 8.5) 10547902.0  {1}1.000
+
+
+
+ ---------------------------------
+ PRTI= 1  TRMPRT= (1S)  SPNPRT= 1
+
+   INDX TE=  5.00D+04  1.00D+05  2.00D+05  3.00D+05  5.00D+05  1.00D+06  1.50D+06  2.00D+06  3.00D+06  5.00D+06  1.00D+07  1.50D+07
+   ---- ---
+     1       7.37D-12  5.20D-12  3.66D-12  2.98D-12  2.29D-12  1.59D-12  1.27D-12  1.08D-12  8.54D-13  6.23D-13  3.89D-13  2.87D-13
+     2       1.09D-12  7.72D-13  5.44D-13  4.43D-13  3.41D-13  2.37D-13  1.90D-13  1.61D-13  1.27D-13  9.16D-14  5.64D-14  4.13D-14
+     3       2.93D-12  2.05D-12  1.41D-12  1.13D-12  8.35D-13  5.37D-13  4.03D-13  3.25D-13  2.34D-13  1.49D-13  7.50D-14  4.82D-14
+     4       3.67D-13  2.59D-13  1.82D-13  1.48D-13  1.13D-13  7.76D-14  6.18D-14  5.23D-14  4.10D-14  2.96D-14  1.81D-14  1.31D-14
+     5       1.11D-12  7.78D-13  5.37D-13  4.28D-13  3.16D-13  2.03D-13  1.52D-13  1.22D-13  8.80D-14  5.59D-14  2.80D-14  1.79D-14
+     6       1.25D-12  8.55D-13  5.66D-13  4.35D-13  3.03D-13  1.74D-13  1.20D-13  9.09D-14  5.97D-14  3.36D-14  1.43D-14  8.46D-15
+     7       1.68D-13  1.18D-13  8.27D-14  6.69D-14  5.12D-14  3.53D-14  2.81D-14  2.38D-14  1.84D-14  1.30D-14  8.05D-15  5.78D-15
+     8       5.29D-13  3.69D-13  2.53D-13  2.02D-13  1.49D-13  9.57D-14  7.18D-14  5.77D-14  4.13D-14  2.60D-14  1.31D-14  8.35D-15
+     9       7.85D-13  5.36D-13  3.54D-13  2.72D-13  1.90D-13  1.09D-13  7.51D-14  5.68D-14  3.72D-14  2.09D-14  8.91D-15  5.25D-15
+    10       5.60D-13  3.68D-13  2.29D-13  1.68D-13  1.09D-13  5.54D-14  3.57D-14  2.57D-14  1.57D-14  8.15D-15  3.18D-15  1.80D-15
+    11       9.15D-14  6.43D-14  4.53D-14  3.68D-14  2.82D-14  1.94D-14  1.53D-14  1.27D-14  1.01D-14  7.07D-15  4.21D-15  2.82D-15
+    12       2.92D-13  2.04D-13  1.41D-13  1.12D-13  8.30D-14  5.30D-14  3.96D-14  3.15D-14  2.27D-14  1.42D-14  7.08D-15  4.33D-15
+    13       4.81D-13  3.28D-13  2.16D-13  1.66D-13  1.16D-13  6.60D-14  4.56D-14  3.44D-14  2.25D-14  1.26D-14  5.37D-15  3.16D-15
+    14       4.93D-13  3.24D-13  2.02D-13  1.48D-13  9.56D-14  4.87D-14  3.14D-14  2.25D-14  1.38D-14  7.15D-15  2.79D-15  1.58D-15
+    15       2.54D-13  1.59D-13  9.19D-14  6.40D-14  3.86D-14  1.78D-14  1.09D-14  7.54D-15  4.41D-15  2.18D-15  8.14D-16  4.52D-16
+
+ 
+C---------------------------------------------------------------------------------
+C ADAS ADF08 DATA - SCCS info: @(#)$Header: /home/adascvs/adas/adf08/rrc98##/rrc98##_ne10ls.dat,v 2.1 2004/07/06 22:04:55 whitefor Exp $ Date $Date: 2004/07/06 22:04:55 $
+C---------------------------------------------------------------------------------
+
+C-----------------------------------------------------------------------
+C                               OPEN-ADAS
+C                               +++++++++
+C
+C This file has been downloaded from OPEN-ADAS (http://open.adas.ac.uk)
+C on 12-Jul-2013.
+C
+C TERMS AND CONDITIONS
+C --------------------
+C
+C The user of the OPEN-ADAS system and data (hereinafter "the User")
+C accepts the following terms and conditions:
+C
+C   1. The University of Strathclyde uses all reasonable endeavours to
+C      ensure the accuracy of the data provided and any information
+C      given, but the University makes no warranty, expressed or implied
+C      as to its accuracy, integrity, fitness for purpose and shall not
+C      be responsible for the use to which the data is put by the User
+C      and/or any consequences arising out of any inaccuracies or
+C      omissions.
+C
+C   2. Any downloaded OPEN-ADAS file is made available for the
+C      personal use of the User only.  It must not be used for any
+C      commercial application, incorporated into any web site or in
+C      any form re-distributed without express prior written permission
+C      from the ADAS Project. In particular, but not by way of
+C      limitation, it must not be:
+C        *  inserted into a managed database structure,
+C        *  redistributed along with a modelling or analysis code,
+C        *  made available on a public website.
+C
+C Permission for OPEN-ADAS data incorporation in non-commercial
+C code/system development for scientific advance will not be
+C unreasonably withheld, but will be subject to written agreement
+C on a case by case basis.
+C
+C The User will indemnify the University of Strathclyde and keep it
+C fully and effectively indemnified against each and every claim made
+C against the University as a result of the User's use of the data.
+C
+C-----------------------------------------------------------------------
